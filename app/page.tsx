@@ -1,9 +1,13 @@
-import Image from "next/image";
+import Link from 'next/link'
 
 export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Hello World!
-    </main>
-  );
+    return (
+        <>
+            <h1 className="text-6xl font-bold">Next App Dir Sandbox</h1>
+            <p>
+                This is a sandbox for experimenting with the Next.js app
+                directory structure as well as React hooks and Tailwind CSS.
+            </p>
+        </>
+    )
 }
